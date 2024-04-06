@@ -1,0 +1,17 @@
+2024-04-05 21:35:19,328 INFO    MainThread:51026 [internal.py:wandb_internal():90] W&B internal server running at pid: 51026, started at: 2024-04-05 21:35:19.328712
+2024-04-05 21:35:19,329 INFO    WriterThread:51026 [datastore.py:open_for_write():75] open: /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_213519-pv5lucor/run-pv5lucor.wandb
+2024-04-05 21:35:19,330 DEBUG   SenderThread:51026 [sender.py:send():232] send: header
+2024-04-05 21:35:19,330 DEBUG   SenderThread:51026 [sender.py:send():232] send: run
+2024-04-05 21:35:19,529 INFO    SenderThread:51026 [dir_watcher.py:__init__():197] watching files in: /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_213519-pv5lucor/files
+2024-04-05 21:35:19,530 INFO    SenderThread:51026 [sender.py:_start_run_threads():811] run started: pv5lucor with start time 1712345719
+2024-04-05 21:35:19,530 DEBUG   SenderThread:51026 [sender.py:send():232] send: summary
+2024-04-05 21:35:19,530 INFO    SenderThread:51026 [sender.py:_save_file():948] saving file wandb-summary.json with policy end
+2024-04-05 21:35:19,533 DEBUG   HandlerThread:51026 [handler.py:handle_request():141] handle_request: check_version
+2024-04-05 21:35:19,534 DEBUG   SenderThread:51026 [sender.py:send_request():246] send_request: check_version
+2024-04-05 21:35:19,633 DEBUG   HandlerThread:51026 [handler.py:handle_request():141] handle_request: run_start
+2024-04-05 21:35:19,634 DEBUG   HandlerThread:51026 [meta.py:__init__():35] meta init
+2024-04-05 21:35:19,636 DEBUG   HandlerThread:51026 [meta.py:__init__():49] meta init done
+2024-04-05 21:35:19,637 DEBUG   HandlerThread:51026 [meta.py:probe():209] probe
+2024-04-05 21:35:19,638 DEBUG   HandlerThread:51026 [meta.py:_setup_git():199] setup git
+2024-04-05 21:35:19,653 WARNING MainThread:51026 [internal.py:wandb_internal():153] Internal process interrupt: 1
+2024-04-05 21:35:19,922 INFO    MainThread:51026 [internal.py:handle_exit():80] Internal process exited

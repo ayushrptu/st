@@ -1,0 +1,172 @@
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'sweep_id': 'pj58xgun', 'run_id': 'p85zkwt5', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-pj58xgun/config-p85zkwt5.yaml'}
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_212710-p85zkwt5/logs/debug.log
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_212710-p85zkwt5/logs/debug-internal.log
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['toy_data_big_c5.csv', 'toy_data_noise_big_c5.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'toy_data_big_c5.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.002937834010396891, 'st_lr_decay': 0.7051308848368837, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'toy_data_noise_big_c5.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [wandb_init.py:init():515] starting backend
+2024-04-05 21:27:10,978 INFO    Thread-3  :50365 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:27:11,077 INFO    Thread-3  :50365 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:27:11,085 INFO    Thread-3  :50365 [backend.py:ensure_launched():222] started backend process with pid: 50437
+2024-04-05 21:27:11,087 INFO    Thread-3  :50365 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:27:11,094 INFO    Thread-3  :50365 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:27:11,111 INFO    Thread-3  :50365 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:27:11,759 INFO    Thread-3  :50365 [wandb_run.py:_on_init():1924] communicating current version
+2024-04-05 21:27:11,868 INFO    Thread-3  :50365 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-05 21:27:11,868 INFO    Thread-3  :50365 [wandb_init.py:init():662] starting run threads in backend
+2024-04-05 21:27:13,609 INFO    Thread-3  :50365 [wandb_run.py:_config_callback():1136] config_cb None None {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['toy_data_big_c5.csv', 'toy_data_noise_big_c5.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'toy_data_big_c5.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.002937834010396891, 'st_lr_decay': 0.7051308848368837, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'toy_data_noise_big_c5.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+2024-04-05 21:27:13,612 INFO    Thread-3  :50365 [wandb_run.py:_console_start():1898] atexit reg
+2024-04-05 21:27:13,613 INFO    Thread-3  :50365 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2024-04-05 21:27:13,613 INFO    Thread-3  :50365 [wandb_run.py:_redirect():1776] Redirecting console.
+2024-04-05 21:27:13,613 ERROR   Thread-3  :50365 [wandb_run.py:_redirect():1835] Failed to redirect.
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1828, in _redirect
+    out_redir.install()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 702, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 652, in add_fd
+    self._register()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 637, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2024-04-05 21:27:13,616 INFO    Thread-3  :50365 [wandb_init.py:init():688] run started, returning control to user process
+2024-04-05 21:27:13,617 INFO    Thread-3  :50365 [wandb_run.py:_config_callback():1136] config_cb None None {'training_params': {'criterion': 'val_perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'optim_params': {'lr': 0.001, 'lr_decay': 1, 'lr_delay': 0, 'lr_warmup': 0, 'lr_full': 0}, 'epochs': 5, 'shuffle_style': None}, 'wandb': True, 'save_path': 'E:/Daten/Master/nets/bert-tiny', 'model_params': {'batch_size': 64, 'seq_len': 256, 'in_channels': 5}, 'dataset_params': None, 'stc_dataset': 'CSV', 'stc_dataset_params': {'file_path': 'E:/Daten/Master/data/toy_data_big_c5.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'sts_dataset': 'CSV', 'sts_dataset_params': {'file_path': 'E:/Daten/Master/data/toy_data_noise_big_c5.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'st_iter_params': {'criterion': 'perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'lr': 0.002937834010396891, 'lr_full': 200, 'lr_decay': 0.7051308848368837, 'num_iters': 5}}
+2024-04-05 21:27:13,915 INFO    Thread-3  :50365 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:27:13,915 INFO    Thread-3  :50365 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:27:13,916 INFO    Thread-3  :50365 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'sweep_id': 'pj58xgun', 'run_id': 'p85zkwt5', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-pj58xgun/config-p85zkwt5.yaml'}
+2024-04-05 21:27:13,916 INFO    Thread-3  :50365 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:27:13,916 INFO    Thread-3  :50365 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_212713-p85zkwt5/logs/debug.log
+2024-04-05 21:27:13,916 INFO    Thread-3  :50365 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_212713-p85zkwt5/logs/debug-internal.log
+2024-04-05 21:27:13,916 INFO    Thread-3  :50365 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:27:13,916 INFO    Thread-3  :50365 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['toy_data_big_c5.csv', 'toy_data_noise_big_c5.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'toy_data_big_c5.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.002937834010396891, 'st_lr_decay': 0.7051308848368837, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'toy_data_noise_big_c5.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:27:13,916 INFO    Thread-3  :50365 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2024-04-05 21:27:14,503 INFO    Thread-3  :50365 [wandb_run.py:_finish():1685] finishing run rptu_shekhar/st_feature_one_channel/p85zkwt5
+2024-04-05 21:27:14,504 INFO    Thread-3  :50365 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2024-04-05 21:27:14,508 INFO    Thread-3  :50365 [wandb_run.py:_restore():1839] restore
+2024-04-05 21:27:14,515 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:27:15,541 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:27:15,745 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:27:15,852 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:15,958 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:16,060 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:16,164 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:16,270 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7697
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:16,372 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7697
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:16,479 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7697
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:16,586 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7697
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:16,693 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7697
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:16,918 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7697
+  total_bytes: 7697
+}
+
+2024-04-05 21:27:17,417 INFO    Thread-3  :50365 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7697
+  total_bytes: 7697
+}
+local_info {
+}
+
+2024-04-05 21:27:18,526 INFO    Thread-3  :50365 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-04-05 21:27:18,527 INFO    Thread-3  :50365 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-04-05 21:27:18,528 INFO    Thread-3  :50365 [wandb_run.py:_footer_sync_info():3060] logging synced files

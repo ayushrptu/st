@@ -1,0 +1,23 @@
+[34m[1mwandb[39m[22m: Downloading large artifact bert-tiny-eecq0ads:latest, 341.32MB. 1 files... Done. 0:0:0
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 129, in <module>
+    plot_one(copy_update(idea, st_lr_decay=1, st_lr=0.001, num_iters=100, **TEST), name="base")
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/plot.py", line 149, in plot_one
+    gen = evaluate_style_transfer(
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/style_transfer.py", line 87, in evaluate_style_transfer
+    print(gen.shape)
+AttributeError: 'NoneType' object has no attribute 'shape'
+Loading features from: ../nets/temp/epoch_10.cp
+parameters loaded on feature net
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+data split [25.4 %, 3.1 %, 3.1 %], 68.5 % discarded as buffer
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+data split [25.2 %, 3.1 %, 3.1 %], 68.6 % discarded as buffer
+-----------------------------3------------IN AAA------------
+---------------------------------
+torch.Size([23, 256, 1])
+---------------------------------
+----------------Gen-----------------
+None

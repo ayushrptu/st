@@ -1,0 +1,116 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'skip_train' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'metrics' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'model' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_model' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_model_params' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_load_artifact' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'dataset' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Changes to your `wandb` environment variables will be ignored because your `wandb` session has already started. For more information on how to modify your settings with `wandb.init()` arguments, please refer to [34m[4mhttps://wandb.me/wandb-init[39m[24m.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg entity when running a sweep.
+[34m[1mwandb[39m[22m: Downloading large artifact bert-tiny-eecq0ads:latest, 341.32MB. 1 files... Done. 0:0:0
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+1198505 trainable parameters
+Loading features from: ../nets/temp/epoch_10.cp
+parameters loaded on feature net
+Warmup done
+Starting Training Loop...
+val_perceptual_0: 0.0096
+val_content_0: 0.0254
+val_style_0: 0.0028
+val_len_0: 23.0000
+val_perceptual_1: 0.0086
+val_content_1: 0.0184
+val_style_1: 0.0029
+val_len_1: 23.0000
+val_perceptual: 0.0091
+val_content: 0.0219
+val_style: 0.0028
+val_VAE-perceptual: 0.0276
+val_KL: 128.1862
+val_VAE-perceptual_0: 0.0280
+val_KL_0: 124.0464
+val_VAE-perceptual_1: 0.0273
+val_KL_1: 132.3259
+val_DIS-perceptual: 0.0368
+val_corr-content: 0.1042
+val_corr-style: 0.1161
+val_corr: 0.8899
+val_DIS-perceptual_0: 0.0373
+val_DIS-perceptual_1: 0.0364
+MSE of sample: 0.675
+reconstruct_train0
+MSE of sample: 0.424
+reconstruct_val0
+Loading style transfer data
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+data split [25.4 %, 3.1 %, 3.1 %], 68.5 % discarded as buffer
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+data split [25.2 %, 3.1 %, 3.1 %], 68.6 % discarded as buffer
+Evaluate on 23 content samples and 23 style samples
+-----------------------------1------------IN AAA------------
+[1/1]
+[1/10]: 0.1692
+[2/10]: 0.1073
+[3/10]: 0.0858
+[4/10]: 0.0748
+[5/10]: 0.0681
+[6/10]: 0.0637
+[7/10]: 0.0605
+[8/10]: 0.0582
+[9/10]: 0.0566
+[10/10]: 0.0553
+stval_recall: 0.8739
+stval_recall-1: 0.8739
+stval_recall-5: 0.8739
+stval_recall-10: 0.8498
+stval_recall-avg: 0.4392
+stval_precision: 0.4304
+stval_precision-1: 0.4304
+stval_precision-5: 0.4304
+stval_precision-10: 0.4304
+stval_precision-avg: 0.3452
+stval_F: 0.5768
+stval_F-1: 0.5768
+stval_F-5: 0.5768
+stval_F-10: 0.5714
+stval_F-avg: 0.3866
+stval_fin: 2.213
+stval_trendfin: 0.2385
+stval_stylefin: 1.193
+stval_acfin: 0.009985
+stval_volfin: 1.024
+stval_fftfin: 2.546
+stval_perceptual: 0.009262
+stval_content: 0.02919
+stval_style: 0.002175
+stval_p-MAE: 0.03945
+stval_p-MSE: 0.004366
+test_perceptual_0: 0.009215
+test_content_0: 0.02329
+test_style_0: 0.002739
+test_len_0: 23
+test_perceptual_1: 0.005465
+test_content_1: 0.01171
+test_style_1: 0.001835
+test_len_1: 23
+test_perceptual: 0.00734
+test_content: 0.0175
+test_style: 0.002287
+test_VAE-perceptual: 0.02502
+test_KL: 128.5
+test_VAE-perceptual_0: 0.0274
+test_KL_0: 124.4
+test_VAE-perceptual_1: 0.02265
+test_KL_1: 132.5
+test_DIS-perceptual: 0.03336
+test_corr-content: 0.05069
+test_corr-style: 0.08369
+test_corr: 0.9328
+test_DIS-perceptual_0: 0.03653
+test_DIS-perceptual_1: 0.0302

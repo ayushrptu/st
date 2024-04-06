@@ -1,0 +1,113 @@
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'skip_train' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'metrics' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'model' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_model' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_model_params' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_load_artifact' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'dataset' was locked by 'sweep' (ignored update).
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 646, in <module>
+    online(**mat2)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 24, in online
+    train_model(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 425, in train_model
+    model, feature_model, train, val, test = load_net_and_data(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 372, in load_net_and_data
+    train, val, test = load_data(config["dataset"], config["dataset_params"])
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 363, in load_data
+    train, val, test = select_data[dataset](**params).dataloader()
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 233, in __init__
+    self.data = [CSVData(fp, **data_kwargs) for fp in file_paths]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 233, in <listcomp>
+    self.data = [CSVData(fp, **data_kwargs) for fp in file_paths]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 101, in __init__
+    super().__init__(df, seq_len, target_col, relevant_cols, transform, **dataloader_kwargs)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 21, in __init__
+    self.df = df[relevant_cols].copy()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/frame.py", line 3511, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5782, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5845, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['x_0', 'x_3', 'x_4'] not in index"
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 646, in <module>
+    online(**mat2)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 24, in online
+    train_model(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 425, in train_model
+    model, feature_model, train, val, test = load_net_and_data(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 372, in load_net_and_data
+    train, val, test = load_data(config["dataset"], config["dataset_params"])
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 363, in load_data
+    train, val, test = select_data[dataset](**params).dataloader()
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 233, in __init__
+    self.data = [CSVData(fp, **data_kwargs) for fp in file_paths]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 233, in <listcomp>
+    self.data = [CSVData(fp, **data_kwargs) for fp in file_paths]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 101, in __init__
+    super().__init__(df, seq_len, target_col, relevant_cols, transform, **dataloader_kwargs)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 21, in __init__
+    self.df = df[relevant_cols].copy()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/frame.py", line 3511, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5782, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5845, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['x_0', 'x_3', 'x_4'] not in index"
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 646, in <module>
+    online(**mat2)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 24, in online
+    train_model(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 425, in train_model
+    model, feature_model, train, val, test = load_net_and_data(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 372, in load_net_and_data
+    train, val, test = load_data(config["dataset"], config["dataset_params"])
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 363, in load_data
+    train, val, test = select_data[dataset](**params).dataloader()
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 233, in __init__
+    self.data = [CSVData(fp, **data_kwargs) for fp in file_paths]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 233, in <listcomp>
+    self.data = [CSVData(fp, **data_kwargs) for fp in file_paths]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 101, in __init__
+    super().__init__(df, seq_len, target_col, relevant_cols, transform, **dataloader_kwargs)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 21, in __init__
+    self.df = df[relevant_cols].copy()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/frame.py", line 3511, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5782, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5845, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['x_0', 'x_3', 'x_4'] not in index"
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 646, in <module>
+    online(**mat2)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 24, in online
+    train_model(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 425, in train_model
+    model, feature_model, train, val, test = load_net_and_data(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 372, in load_net_and_data
+    train, val, test = load_data(config["dataset"], config["dataset_params"])
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 363, in load_data
+    train, val, test = select_data[dataset](**params).dataloader()
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 233, in __init__
+    self.data = [CSVData(fp, **data_kwargs) for fp in file_paths]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 233, in <listcomp>
+    self.data = [CSVData(fp, **data_kwargs) for fp in file_paths]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 101, in __init__
+    super().__init__(df, seq_len, target_col, relevant_cols, transform, **dataloader_kwargs)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/data/csv_data.py", line 21, in __init__
+    self.df = df[relevant_cols].copy()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/frame.py", line 3511, in __getitem__
+    indexer = self.columns._get_indexer_strict(key, "columns")[1]
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5782, in _get_indexer_strict
+    self._raise_if_missing(keyarr, indexer, axis_name)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/pandas/core/indexes/base.py", line 5845, in _raise_if_missing
+    raise KeyError(f"{not_found} not in index")
+KeyError: "['x_0', 'x_3', 'x_4'] not in index"

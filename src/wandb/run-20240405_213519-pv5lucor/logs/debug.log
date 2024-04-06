@@ -1,0 +1,90 @@
+2024-04-05 21:35:19,006 INFO    Thread-7  :50988 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:35:19,007 INFO    Thread-7  :50988 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:35:19,007 INFO    Thread-7  :50988 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'pv5lucor', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-5vzgz6vu/config-pv5lucor.yaml', 'sweep_id': '5vzgz6vu'}
+2024-04-05 21:35:19,007 INFO    Thread-7  :50988 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:35:19,007 INFO    Thread-7  :50988 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_213519-pv5lucor/logs/debug.log
+2024-04-05 21:35:19,007 INFO    Thread-7  :50988 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_213519-pv5lucor/logs/debug-internal.log
+2024-04-05 21:35:19,007 INFO    Thread-7  :50988 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:35:19,007 INFO    Thread-7  :50988 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 6.853056885012024e-05, 'st_lr_decay': 0.9495613329546554, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:35:19,008 INFO    Thread-7  :50988 [wandb_init.py:init():515] starting backend
+2024-04-05 21:35:19,008 INFO    Thread-7  :50988 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:35:19,012 INFO    Thread-7  :50988 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:35:19,018 INFO    Thread-7  :50988 [backend.py:ensure_launched():222] started backend process with pid: 51026
+2024-04-05 21:35:19,019 INFO    Thread-7  :50988 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:35:19,028 INFO    Thread-7  :50988 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:35:19,044 INFO    Thread-7  :50988 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:35:19,533 INFO    Thread-7  :50988 [wandb_run.py:_on_init():1924] communicating current version
+2024-04-05 21:35:19,632 INFO    Thread-7  :50988 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-05 21:35:19,632 INFO    Thread-7  :50988 [wandb_init.py:init():662] starting run threads in backend
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'pv5lucor', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-5vzgz6vu/config-pv5lucor.yaml', 'sweep_id': '5vzgz6vu'}
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'pv5lucor', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-5vzgz6vu/config-pv5lucor.yaml', 'sweep_id': '5vzgz6vu'}
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_213519-pv5lucor/logs/debug.log
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_213519-pv5lucor/logs/debug.log
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_213519-pv5lucor/logs/debug-internal.log
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_213519-pv5lucor/logs/debug-internal.log
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 6.853056885012024e-05, 'st_lr_decay': 0.9495613329546554, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 6.853056885012024e-05, 'st_lr_decay': 0.9495613329546554, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_0', 'x_1', 'x_2', 'x_3', 'x_4'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:init():515] starting backend
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [wandb_init.py:init():515] starting backend
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:35:19,659 INFO    MainThread:50988 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:35:19,661 INFO    MainThread:50988 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:35:19,661 INFO    MainThread:50988 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:35:19,666 INFO    MainThread:50988 [backend.py:ensure_launched():222] started backend process with pid: 51035
+2024-04-05 21:35:19,666 INFO    MainThread:50988 [backend.py:ensure_launched():222] started backend process with pid: 51035
+2024-04-05 21:35:19,667 INFO    MainThread:50988 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:35:19,667 INFO    MainThread:50988 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:35:19,672 INFO    MainThread:50988 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:35:19,672 INFO    MainThread:50988 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:35:19,684 INFO    MainThread:50988 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:35:19,684 INFO    MainThread:50988 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:35:19,782 WARNING MainThread:50988 [wandb_init.py:init():1020] interrupted
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 630, in init
+    run_result = backend.interface.communicate_run(
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 223, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 324, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/threading.py", line 581, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-04-05 21:35:19,782 WARNING MainThread:50988 [wandb_init.py:init():1020] interrupted
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 999, in init
+    run = wi.init()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_init.py", line 630, in init
+    run_result = backend.interface.communicate_run(
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/interface/interface.py", line 223, in communicate_run
+    return self._communicate_run(run, timeout=timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 324, in _communicate_run
+    resp = self._communicate(req, timeout=timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/interface/interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/interface/router.py", line 37, in get
+    is_set = self._object_ready.wait(timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/threading.py", line 581, in wait
+    signaled = self._cond.wait(timeout)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/threading.py", line 316, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt

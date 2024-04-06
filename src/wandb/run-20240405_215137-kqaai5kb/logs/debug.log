@@ -1,0 +1,1003 @@
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'kqaai5kb', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-kqaai5kb.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215137-kqaai5kb/logs/debug.log
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215137-kqaai5kb/logs/debug-internal.log
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.04497525096826664, 'st_lr_decay': 0.8152302115226716, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:51:37,813 INFO    Thread-42 :52314 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2024-04-05 21:51:39,079 INFO    Thread-42 :52314 [wandb_run.py:_finish():1685] finishing run rptu_shekhar/st_feature_one_channel/kqaai5kb
+2024-04-05 21:51:39,079 INFO    Thread-42 :52314 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2024-04-05 21:51:39,080 INFO    Thread-42 :52314 [wandb_run.py:_restore():1839] restore
+2024-04-05 21:51:39,083 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:51:39,982 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:51:40,197 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:51:40,352 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:40,459 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:40,561 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:40,667 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:40,773 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:40,880 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:40,986 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:41,093 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:41,630 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:51:42,153 INFO    Thread-42 :52314 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+local_info {
+}
+
+2024-04-05 21:51:43,262 INFO    Thread-42 :52314 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-04-05 21:51:43,262 INFO    Thread-42 :52314 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-04-05 21:51:43,264 INFO    Thread-42 :52314 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2024-04-05 21:51:43,264 ERROR   MainThread:52314 [pyagent.py:_run_jobs_from_queue():228] Run kqaai5kb errored: TypeError("isnan(): argument 'input' (position 1) must be Tensor, not NoneType")
+2024-04-05 21:52:26,764 INFO    Thread-82 :52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:52:26,765 INFO    Thread-82 :52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:52:26,765 INFO    Thread-82 :52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': '4o70mg8e', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-4o70mg8e.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:52:26,765 INFO    Thread-82 :52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:52:26,765 INFO    Thread-82 :52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215226-4o70mg8e/logs/debug.log
+2024-04-05 21:52:26,765 INFO    Thread-82 :52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215226-4o70mg8e/logs/debug-internal.log
+2024-04-05 21:52:26,765 INFO    Thread-82 :52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:52:26,766 INFO    Thread-82 :52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 1.5188114609759733, 'st_lr_decay': 0.8721161878762073, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:52:26,766 INFO    Thread-82 :52314 [wandb_init.py:init():515] starting backend
+2024-04-05 21:52:26,766 INFO    Thread-82 :52314 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:52:26,771 INFO    Thread-82 :52314 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:52:26,780 INFO    Thread-82 :52314 [backend.py:ensure_launched():222] started backend process with pid: 52371
+2024-04-05 21:52:26,782 INFO    Thread-82 :52314 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:52:26,790 INFO    Thread-82 :52314 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:52:26,810 INFO    Thread-82 :52314 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:52:27,446 INFO    Thread-82 :52314 [wandb_run.py:_on_init():1924] communicating current version
+2024-04-05 21:52:27,552 INFO    Thread-82 :52314 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-05 21:52:27,552 INFO    Thread-82 :52314 [wandb_init.py:init():662] starting run threads in backend
+2024-04-05 21:52:28,847 INFO    Thread-82 :52314 [wandb_run.py:_config_callback():1136] config_cb None None {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 1.5188114609759733, 'st_lr_decay': 0.8721161878762073, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+2024-04-05 21:52:28,851 INFO    Thread-82 :52314 [wandb_run.py:_console_start():1898] atexit reg
+2024-04-05 21:52:28,851 INFO    Thread-82 :52314 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2024-04-05 21:52:28,851 INFO    Thread-82 :52314 [wandb_run.py:_redirect():1776] Redirecting console.
+2024-04-05 21:52:28,851 ERROR   Thread-82 :52314 [wandb_run.py:_redirect():1835] Failed to redirect.
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1828, in _redirect
+    out_redir.install()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 702, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 652, in add_fd
+    self._register()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 637, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2024-04-05 21:52:28,852 INFO    Thread-82 :52314 [wandb_init.py:init():688] run started, returning control to user process
+2024-04-05 21:52:28,852 INFO    Thread-82 :52314 [wandb_run.py:_config_callback():1136] config_cb None None {'training_params': {'criterion': 'val_perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'optim_params': {'lr': 0.001, 'lr_decay': 1, 'lr_delay': 0, 'lr_warmup': 0, 'lr_full': 0}, 'epochs': 5, 'shuffle_style': None}, 'wandb': True, 'save_path': '../nets/bert-tiny', 'model_params': {'batch_size': 64, 'seq_len': 256, 'in_channels': 1}, 'dataset_params': None, 'stc_dataset': 'CSV', 'stc_dataset_params': {'file_path': '../data/gp_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'sts_dataset': 'CSV', 'sts_dataset_params': {'file_path': '../data/energy_norm_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'st_iter_params': {'criterion': 'perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'lr': 1.5188114609759733, 'lr_full': 200, 'lr_decay': 0.8721161878762073, 'num_iters': 5}}
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': '4o70mg8e', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-4o70mg8e.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215229-4o70mg8e/logs/debug.log
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215229-4o70mg8e/logs/debug-internal.log
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 1.5188114609759733, 'st_lr_decay': 0.8721161878762073, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:52:29,161 INFO    Thread-82 :52314 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2024-04-05 21:52:30,658 INFO    Thread-82 :52314 [wandb_run.py:_finish():1685] finishing run rptu_shekhar/st_feature_one_channel/4o70mg8e
+2024-04-05 21:52:30,658 INFO    Thread-82 :52314 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2024-04-05 21:52:30,660 INFO    Thread-82 :52314 [wandb_run.py:_restore():1839] restore
+2024-04-05 21:52:30,663 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:31,172 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:31,380 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:31,486 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:31,592 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:31,697 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:31,802 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 2647
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:31,903 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:32,009 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:32,111 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:32,214 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:32,782 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:33,260 INFO    Thread-82 :52314 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+local_info {
+}
+
+2024-04-05 21:52:34,369 INFO    Thread-82 :52314 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-04-05 21:52:34,369 INFO    Thread-82 :52314 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-04-05 21:52:34,371 INFO    Thread-82 :52314 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2024-04-05 21:52:34,371 ERROR   MainThread:52314 [pyagent.py:_run_jobs_from_queue():228] Run 4o70mg8e errored: TypeError("isnan(): argument 'input' (position 1) must be Tensor, not NoneType")
+2024-04-05 21:52:37,378 INFO    Thread-122:52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:52:37,378 INFO    Thread-122:52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:52:37,378 INFO    Thread-122:52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'd7qimeoq', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-d7qimeoq.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:52:37,379 INFO    Thread-122:52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:52:37,379 INFO    Thread-122:52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215237-d7qimeoq/logs/debug.log
+2024-04-05 21:52:37,379 INFO    Thread-122:52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215237-d7qimeoq/logs/debug-internal.log
+2024-04-05 21:52:37,379 INFO    Thread-122:52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:52:37,379 INFO    Thread-122:52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 3.0527380897002954, 'st_lr_decay': 0.9949039066605716, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:52:37,380 INFO    Thread-122:52314 [wandb_init.py:init():515] starting backend
+2024-04-05 21:52:37,380 INFO    Thread-122:52314 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:52:37,384 INFO    Thread-122:52314 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:52:37,393 INFO    Thread-122:52314 [backend.py:ensure_launched():222] started backend process with pid: 52426
+2024-04-05 21:52:37,395 INFO    Thread-122:52314 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:52:37,403 INFO    Thread-122:52314 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:52:37,422 INFO    Thread-122:52314 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:52:38,009 INFO    Thread-122:52314 [wandb_run.py:_on_init():1924] communicating current version
+2024-04-05 21:52:38,087 INFO    Thread-122:52314 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-05 21:52:38,087 INFO    Thread-122:52314 [wandb_init.py:init():662] starting run threads in backend
+2024-04-05 21:52:39,355 INFO    Thread-122:52314 [wandb_run.py:_config_callback():1136] config_cb None None {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 3.0527380897002954, 'st_lr_decay': 0.9949039066605716, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+2024-04-05 21:52:39,358 INFO    Thread-122:52314 [wandb_run.py:_console_start():1898] atexit reg
+2024-04-05 21:52:39,358 INFO    Thread-122:52314 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2024-04-05 21:52:39,358 INFO    Thread-122:52314 [wandb_run.py:_redirect():1776] Redirecting console.
+2024-04-05 21:52:39,359 ERROR   Thread-122:52314 [wandb_run.py:_redirect():1835] Failed to redirect.
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1828, in _redirect
+    out_redir.install()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 702, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 652, in add_fd
+    self._register()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 637, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2024-04-05 21:52:39,359 INFO    Thread-122:52314 [wandb_init.py:init():688] run started, returning control to user process
+2024-04-05 21:52:39,360 INFO    Thread-122:52314 [wandb_run.py:_config_callback():1136] config_cb None None {'training_params': {'criterion': 'val_perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'optim_params': {'lr': 0.001, 'lr_decay': 1, 'lr_delay': 0, 'lr_warmup': 0, 'lr_full': 0}, 'epochs': 5, 'shuffle_style': None}, 'wandb': True, 'save_path': '../nets/bert-tiny', 'model_params': {'batch_size': 64, 'seq_len': 256, 'in_channels': 1}, 'dataset_params': None, 'stc_dataset': 'CSV', 'stc_dataset_params': {'file_path': '../data/gp_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'sts_dataset': 'CSV', 'sts_dataset_params': {'file_path': '../data/energy_norm_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'st_iter_params': {'criterion': 'perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'lr': 3.0527380897002954, 'lr_full': 200, 'lr_decay': 0.9949039066605716, 'num_iters': 5}}
+2024-04-05 21:52:39,667 INFO    Thread-122:52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:52:39,667 INFO    Thread-122:52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:52:39,667 INFO    Thread-122:52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'd7qimeoq', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-d7qimeoq.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:52:39,667 INFO    Thread-122:52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:52:39,667 INFO    Thread-122:52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215239-d7qimeoq/logs/debug.log
+2024-04-05 21:52:39,667 INFO    Thread-122:52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215239-d7qimeoq/logs/debug-internal.log
+2024-04-05 21:52:39,667 INFO    Thread-122:52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:52:39,668 INFO    Thread-122:52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 3.0527380897002954, 'st_lr_decay': 0.9949039066605716, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:52:39,668 INFO    Thread-122:52314 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2024-04-05 21:52:40,911 INFO    Thread-122:52314 [wandb_run.py:_finish():1685] finishing run rptu_shekhar/st_feature_one_channel/d7qimeoq
+2024-04-05 21:52:40,912 INFO    Thread-122:52314 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2024-04-05 21:52:40,913 INFO    Thread-122:52314 [wandb_run.py:_restore():1839] restore
+2024-04-05 21:52:40,916 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:41,671 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:41,885 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:42,031 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:42,137 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:42,243 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:42,345 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 4531
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:42,451 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:42,557 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:42,662 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:42,766 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:42,871 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:43,341 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+
+2024-04-05 21:52:43,855 INFO    Thread-122:52314 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7395
+  total_bytes: 7395
+}
+local_info {
+}
+
+2024-04-05 21:52:44,962 INFO    Thread-122:52314 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-04-05 21:52:44,963 INFO    Thread-122:52314 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-04-05 21:52:44,964 INFO    Thread-122:52314 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2024-04-05 21:52:44,964 ERROR   MainThread:52314 [pyagent.py:_run_jobs_from_queue():228] Run d7qimeoq errored: TypeError("isnan(): argument 'input' (position 1) must be Tensor, not NoneType")
+2024-04-05 21:52:48,041 INFO    Thread-162:52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:52:48,042 INFO    Thread-162:52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:52:48,042 INFO    Thread-162:52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': '05tgfyqo', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-05tgfyqo.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:52:48,042 INFO    Thread-162:52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:52:48,042 INFO    Thread-162:52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215248-05tgfyqo/logs/debug.log
+2024-04-05 21:52:48,042 INFO    Thread-162:52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215248-05tgfyqo/logs/debug-internal.log
+2024-04-05 21:52:48,043 INFO    Thread-162:52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:52:48,043 INFO    Thread-162:52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.22448899632760264, 'st_lr_decay': 0.8942589049522227, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:52:48,043 INFO    Thread-162:52314 [wandb_init.py:init():515] starting backend
+2024-04-05 21:52:48,043 INFO    Thread-162:52314 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:52:48,047 INFO    Thread-162:52314 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:52:48,057 INFO    Thread-162:52314 [backend.py:ensure_launched():222] started backend process with pid: 52459
+2024-04-05 21:52:48,059 INFO    Thread-162:52314 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:52:48,067 INFO    Thread-162:52314 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:52:48,085 INFO    Thread-162:52314 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:52:48,514 INFO    Thread-162:52314 [wandb_run.py:_on_init():1924] communicating current version
+2024-04-05 21:52:48,596 INFO    Thread-162:52314 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-05 21:52:48,596 INFO    Thread-162:52314 [wandb_init.py:init():662] starting run threads in backend
+2024-04-05 21:52:49,733 INFO    Thread-162:52314 [wandb_run.py:_config_callback():1136] config_cb None None {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.22448899632760264, 'st_lr_decay': 0.8942589049522227, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+2024-04-05 21:52:49,736 INFO    Thread-162:52314 [wandb_run.py:_console_start():1898] atexit reg
+2024-04-05 21:52:49,737 INFO    Thread-162:52314 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2024-04-05 21:52:49,737 INFO    Thread-162:52314 [wandb_run.py:_redirect():1776] Redirecting console.
+2024-04-05 21:52:49,737 ERROR   Thread-162:52314 [wandb_run.py:_redirect():1835] Failed to redirect.
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1828, in _redirect
+    out_redir.install()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 702, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 652, in add_fd
+    self._register()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 637, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2024-04-05 21:52:49,737 INFO    Thread-162:52314 [wandb_init.py:init():688] run started, returning control to user process
+2024-04-05 21:52:49,738 INFO    Thread-162:52314 [wandb_run.py:_config_callback():1136] config_cb None None {'training_params': {'criterion': 'val_perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'optim_params': {'lr': 0.001, 'lr_decay': 1, 'lr_delay': 0, 'lr_warmup': 0, 'lr_full': 0}, 'epochs': 5, 'shuffle_style': None}, 'wandb': True, 'save_path': '../nets/bert-tiny', 'model_params': {'batch_size': 64, 'seq_len': 256, 'in_channels': 1}, 'dataset_params': None, 'stc_dataset': 'CSV', 'stc_dataset_params': {'file_path': '../data/gp_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'sts_dataset': 'CSV', 'sts_dataset_params': {'file_path': '../data/energy_norm_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'st_iter_params': {'criterion': 'perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'lr': 0.22448899632760264, 'lr_full': 200, 'lr_decay': 0.8942589049522227, 'num_iters': 5}}
+2024-04-05 21:52:50,089 INFO    Thread-162:52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:52:50,089 INFO    Thread-162:52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:52:50,089 INFO    Thread-162:52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': '05tgfyqo', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-05tgfyqo.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:52:50,089 INFO    Thread-162:52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:52:50,089 INFO    Thread-162:52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215250-05tgfyqo/logs/debug.log
+2024-04-05 21:52:50,089 INFO    Thread-162:52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215250-05tgfyqo/logs/debug-internal.log
+2024-04-05 21:52:50,089 INFO    Thread-162:52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:52:50,089 INFO    Thread-162:52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.22448899632760264, 'st_lr_decay': 0.8942589049522227, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:52:50,090 INFO    Thread-162:52314 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2024-04-05 21:52:51,363 INFO    Thread-162:52314 [wandb_run.py:_finish():1685] finishing run rptu_shekhar/st_feature_one_channel/05tgfyqo
+2024-04-05 21:52:51,363 INFO    Thread-162:52314 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2024-04-05 21:52:51,364 INFO    Thread-162:52314 [wandb_run.py:_restore():1839] restore
+2024-04-05 21:52:51,366 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:52,141 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:52,338 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:52:52,546 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:52,652 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:52,756 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:52,860 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 754
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:52,966 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:53,071 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:53,176 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:53,283 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:53,807 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+
+2024-04-05 21:52:54,289 INFO    Thread-162:52314 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7397
+  total_bytes: 7397
+}
+local_info {
+}
+
+2024-04-05 21:52:55,428 INFO    Thread-162:52314 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-04-05 21:52:55,428 INFO    Thread-162:52314 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-04-05 21:52:55,429 INFO    Thread-162:52314 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2024-04-05 21:52:55,429 ERROR   MainThread:52314 [pyagent.py:_run_jobs_from_queue():228] Run 05tgfyqo errored: TypeError("isnan(): argument 'input' (position 1) must be Tensor, not NoneType")
+2024-04-05 21:52:58,829 INFO    Thread-202:52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:52:58,829 INFO    Thread-202:52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:52:58,829 INFO    Thread-202:52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'xlot7cem', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-xlot7cem.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:52:58,829 INFO    Thread-202:52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:52:58,829 INFO    Thread-202:52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215258-xlot7cem/logs/debug.log
+2024-04-05 21:52:58,830 INFO    Thread-202:52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215258-xlot7cem/logs/debug-internal.log
+2024-04-05 21:52:58,830 INFO    Thread-202:52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:52:58,830 INFO    Thread-202:52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.669645332930387, 'st_lr_decay': 0.9191551873096696, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:52:58,831 INFO    Thread-202:52314 [wandb_init.py:init():515] starting backend
+2024-04-05 21:52:58,831 INFO    Thread-202:52314 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:52:58,836 INFO    Thread-202:52314 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:52:58,847 INFO    Thread-202:52314 [backend.py:ensure_launched():222] started backend process with pid: 52482
+2024-04-05 21:52:58,848 INFO    Thread-202:52314 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:52:58,858 INFO    Thread-202:52314 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:52:58,877 INFO    Thread-202:52314 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:52:59,315 INFO    Thread-202:52314 [wandb_run.py:_on_init():1924] communicating current version
+2024-04-05 21:52:59,393 INFO    Thread-202:52314 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-05 21:52:59,393 INFO    Thread-202:52314 [wandb_init.py:init():662] starting run threads in backend
+2024-04-05 21:53:00,484 INFO    Thread-202:52314 [wandb_run.py:_config_callback():1136] config_cb None None {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.669645332930387, 'st_lr_decay': 0.9191551873096696, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+2024-04-05 21:53:00,488 INFO    Thread-202:52314 [wandb_run.py:_console_start():1898] atexit reg
+2024-04-05 21:53:00,489 INFO    Thread-202:52314 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2024-04-05 21:53:00,489 INFO    Thread-202:52314 [wandb_run.py:_redirect():1776] Redirecting console.
+2024-04-05 21:53:00,489 ERROR   Thread-202:52314 [wandb_run.py:_redirect():1835] Failed to redirect.
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/wandb_run.py", line 1828, in _redirect
+    out_redir.install()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 702, in install
+    _WSCH.add_fd(self._pipe_read_fd)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 652, in add_fd
+    self._register()
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/site-packages/wandb/sdk/lib/redirect.py", line 637, in _register
+    old_handler = signal.signal(signal.SIGWINCH, lambda *_: None)
+  File "/Users/ayushshekhar/anaconda3/envs/py3.9/lib/python3.9/signal.py", line 56, in signal
+    handler = _signal.signal(_enum_to_int(signalnum), _enum_to_int(handler))
+ValueError: signal only works in main thread of the main interpreter
+2024-04-05 21:53:00,489 INFO    Thread-202:52314 [wandb_init.py:init():688] run started, returning control to user process
+2024-04-05 21:53:00,490 INFO    Thread-202:52314 [wandb_run.py:_config_callback():1136] config_cb None None {'training_params': {'criterion': 'val_perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'optim_params': {'lr': 0.001, 'lr_decay': 1, 'lr_delay': 0, 'lr_warmup': 0, 'lr_full': 0}, 'epochs': 5, 'shuffle_style': None}, 'wandb': True, 'save_path': '../nets/bert-tiny', 'model_params': {'batch_size': 64, 'seq_len': 256, 'in_channels': 1}, 'dataset_params': None, 'stc_dataset': 'CSV', 'stc_dataset_params': {'file_path': '../data/gp_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'sts_dataset': 'CSV', 'sts_dataset_params': {'file_path': '../data/energy_norm_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'st_iter_params': {'criterion': 'perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 1, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'lr': 0.669645332930387, 'lr_full': 200, 'lr_decay': 0.9191551873096696, 'num_iters': 5}}
+2024-04-05 21:53:00,799 INFO    Thread-202:52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:53:00,799 INFO    Thread-202:52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:53:00,799 INFO    Thread-202:52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'xlot7cem', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-xlot7cem.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:53:00,799 INFO    Thread-202:52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:53:00,799 INFO    Thread-202:52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215300-xlot7cem/logs/debug.log
+2024-04-05 21:53:00,800 INFO    Thread-202:52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215300-xlot7cem/logs/debug-internal.log
+2024-04-05 21:53:00,800 INFO    Thread-202:52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:53:00,800 INFO    Thread-202:52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.669645332930387, 'st_lr_decay': 0.9191551873096696, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:53:00,800 INFO    Thread-202:52314 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2024-04-05 21:53:02,134 INFO    Thread-202:52314 [wandb_run.py:_finish():1685] finishing run rptu_shekhar/st_feature_one_channel/xlot7cem
+2024-04-05 21:53:02,134 INFO    Thread-202:52314 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 1
+2024-04-05 21:53:02,135 INFO    Thread-202:52314 [wandb_run.py:_restore():1839] restore
+2024-04-05 21:53:02,138 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:53:02,975 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:53:03,198 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 728
+}
+
+2024-04-05 21:53:03,345 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:03,451 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:03,556 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:03,660 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 728
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:03,766 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 6448
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:03,870 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7393
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:03,974 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7393
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:04,080 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7393
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:04,189 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7393
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:04,828 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7393
+  total_bytes: 7393
+}
+
+2024-04-05 21:53:05,326 INFO    Thread-202:52314 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 5
+}
+pusher_stats {
+  uploaded_bytes: 7393
+  total_bytes: 7393
+}
+local_info {
+}
+
+2024-04-05 21:53:06,437 INFO    Thread-202:52314 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-04-05 21:53:06,437 INFO    Thread-202:52314 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-04-05 21:53:06,438 INFO    Thread-202:52314 [wandb_run.py:_footer_sync_info():3060] logging synced files
+2024-04-05 21:53:06,438 ERROR   MainThread:52314 [pyagent.py:_run_jobs_from_queue():228] Run xlot7cem errored: TypeError("isnan(): argument 'input' (position 1) must be Tensor, not NoneType")
+2024-04-05 21:53:06,438 ERROR   MainThread:52314 [pyagent.py:_run_jobs_from_queue():253] Detected 5 failed runs in a row at start, killing sweep.
+2024-04-05 21:53:06,443 INFO    MainThread:52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:53:06,443 INFO    MainThread:52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:53:06,443 INFO    MainThread:52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'xlot7cem', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-xlot7cem.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:53:06,443 INFO    MainThread:52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:53:06,443 INFO    MainThread:52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215306-xlot7cem/logs/debug.log
+2024-04-05 21:53:06,443 INFO    MainThread:52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215306-xlot7cem/logs/debug-internal.log
+2024-04-05 21:53:06,444 INFO    MainThread:52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:53:06,444 INFO    MainThread:52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.669645332930387, 'st_lr_decay': 0.9191551873096696, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:53:06,444 INFO    MainThread:52314 [wandb_init.py:init():515] starting backend
+2024-04-05 21:53:06,444 INFO    MainThread:52314 [backend.py:_multiprocessing_setup():97] multiprocessing start_methods=spawn,fork,forkserver, using: spawn
+2024-04-05 21:53:06,446 INFO    MainThread:52314 [backend.py:ensure_launched():217] starting backend process...
+2024-04-05 21:53:06,455 INFO    MainThread:52314 [backend.py:ensure_launched():222] started backend process with pid: 52516
+2024-04-05 21:53:06,456 INFO    MainThread:52314 [wandb_init.py:init():525] backend started and connected
+2024-04-05 21:53:06,461 INFO    MainThread:52314 [wandb_init.py:init():596] updated telemetry
+2024-04-05 21:53:06,476 INFO    MainThread:52314 [wandb_init.py:init():627] communicating run to backend with 30 second timeout
+2024-04-05 21:53:06,898 INFO    MainThread:52314 [wandb_run.py:_on_init():1924] communicating current version
+2024-04-05 21:53:06,980 INFO    MainThread:52314 [wandb_run.py:_on_init():1928] got version response upgrade_message: "wandb version 0.16.6 is available!  To upgrade, please run:\n $ pip install wandb --upgrade"
+
+2024-04-05 21:53:06,980 INFO    MainThread:52314 [wandb_init.py:init():662] starting run threads in backend
+2024-04-05 21:53:08,087 INFO    MainThread:52314 [wandb_run.py:_config_callback():1136] config_cb None None {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.669645332930387, 'st_lr_decay': 0.9191551873096696, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+2024-04-05 21:53:08,091 INFO    MainThread:52314 [wandb_run.py:_console_start():1898] atexit reg
+2024-04-05 21:53:08,092 INFO    MainThread:52314 [wandb_run.py:_redirect():1771] redirect: SettingsConsole.REDIRECT
+2024-04-05 21:53:08,092 INFO    MainThread:52314 [wandb_run.py:_redirect():1776] Redirecting console.
+2024-04-05 21:53:08,092 INFO    MainThread:52314 [wandb_run.py:_redirect():1832] Redirects installed.
+2024-04-05 21:53:08,092 INFO    MainThread:52314 [wandb_init.py:init():688] run started, returning control to user process
+2024-04-05 21:53:08,093 INFO    MainThread:52314 [wandb_run.py:_config_callback():1136] config_cb None None {'training_params': {'criterion': 'DIS-perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 0.0004, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'optim_params': {'lr': 0.001, 'lr_decay': 1, 'lr_delay': 0, 'lr_warmup': 0, 'lr_full': 4}, 'epochs': 1, 'shuffle_style': 'half'}, 'wandb': True, 'save_path': '../nets/bert-tiny', 'model_params': {'in_channels': 1, 'out_channels': 1, 'is_vae': True, 'pe_after_latent': True, 'mode': 'factorised', 'd_model': 128, 'd_latent': 8, 'd_latent_style': 4, 'layers': 2, 'n_heads': 8, 'dim_feedforward': 512, 'dropout': 0.1, 'embedding': 'conv', 'masking': 'token-post', 'vae_embedding': 'none', 'vae_dist': 'gaussian', 'context_size': 16, 'context_dim': 16, 'context_layers': 1, 'final_layer': True, 'keep_latent': True}, 'dataset_params': {'file_paths': ['../data/gp_single.csv', '../data/energy_norm_single.csv'], 'csv_weights': [1, 1], 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64, 'transform': 'masking', 'transform_params': {'cloze_len': 8, 'cloze_perc': 0.2, 'mask_rand_none_split': [0.8, 0.1, 0.1]}}, 'stc_dataset': 'CSV', 'stc_dataset_params': {'file_path': '../data/gp_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'sts_dataset': 'CSV', 'sts_dataset_params': {'file_path': '../data/energy_norm_single.csv', 'relevant_cols': ['x_1'], 'target_col': None, 'valid_perc': 0.1, 'test_perc': 0.1, 'seq_len': 256, 'batch_size': 64}, 'st_iter_params': {'criterion': 'perceptual', 'criterion_params': {'lamb_content': 1, 'lamb_style': 10, 'lamb_kl': 0.0004, 'lamb_dis': 0, 'content_hooks': ['conv0.0'], 'style_hooks': ['conv1.0'], 'last_hook': 'conv1.0', 'style_loss': 'mean_std'}, 'optimizer': 'Adam', 'lr': 0.001, 'lr_full': 20, 'lr_decay': 1, 'num_iters': 0}}
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_setup.py:_flush():76] Loading settings from /Users/ayushshekhar/.config/wandb/settings
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_setup.py:_flush():76] Loading settings from wandb/settings
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_setup.py:_flush():76] Loading settings from environment variables: {'project': 'st_feature_one_channel', 'entity': 'rptu_shekhar', 'root_dir': '/Users/ayushshekhar/Desktop/work/ml/Master/src', 'run_id': 'xlot7cem', 'sweep_param_path': '/Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/sweep-svtb6s6t/config-xlot7cem.yaml', 'sweep_id': 'svtb6s6t'}
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program_relpath': 'src/main.py', 'program': '/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py'}
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_init.py:_log_setup():428] Logging user logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215308-xlot7cem/logs/debug.log
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_init.py:_log_setup():429] Logging internal logs to /Users/ayushshekhar/Desktop/work/ml/Master/src/wandb/run-20240405_215308-xlot7cem/logs/debug-internal.log
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_init.py:init():462] calling init triggers
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_init.py:init():465] wandb.init called with sweep_config: {'batch_size': 64, 'content_hooks': ['conv0.0'], 'dataset': 'None', 'feature_load_artifact': 'bert-tiny-eecq0ads:latest', 'feature_model': True, 'feature_model_params': {'batch_size': 64, 'cloze_len': 8, 'cloze_perc': 0.2, 'csv_weights': [1, 1], 'dataset': 'CSVs', 'dropout': 0.2, 'embedding': 'none', 'file_names': ['gp_single.csv', 'energy_norm_single.csv'], 'last_nonempty': None, 'layers': 8, 'mask_rand_none_split': [0.8, 0.1, 0.1], 'masking': 'token-pre', 'model': 'CNN', 'out_conv_channels': 4096, 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'masking'}, 'lamb_content': 1, 'lamb_dis': 0, 'lamb_style': 10, 'last_hook': 'conv1.0', 'metrics': ['stval_PR', 'stval_fin', 'stval_perceptual', 'stval_MAE'], 'model': 'Iter', 'num_iters': 5, 'relevant_cols': ['x_1'], 'seq_len': 256, 'skip_train': True, 'st_content_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'gp_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'st_dataset': True, 'st_loss': 'perceptual', 'st_lr': 0.669645332930387, 'st_lr_decay': 0.9191551873096696, 'st_lr_full': 200, 'st_style_params': {'batch_size': 64, 'dataset': 'CSV', 'file_name': 'energy_norm_single.csv', 'relevant_cols': ['x_1'], 'seq_len': 256, 'transform': 'none'}, 'style_hooks': ['conv1.0'], 'transform': 'none'}
+config: {}
+2024-04-05 21:53:08,420 INFO    MainThread:52314 [wandb_init.py:init():510] wandb.init() called when a run is still active
+2024-04-05 21:53:30,402 INFO    MainThread:52314 [wandb_run.py:_config_callback():1136] config_cb ('_wandb', 'visualize', 'reconstruct_train0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/lineseries/v0', 'fieldSettings': {'step': 'step', 'lineKey': 'lineKey', 'lineVal': 'lineVal'}, 'stringSettings': {'title': 'Reconstruction (train)', 'xname': 'x'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'reconstruct_train0_table'}], 'fields': []}]}]}}} None
+2024-04-05 21:53:30,999 INFO    MainThread:52314 [wandb_run.py:_config_callback():1136] config_cb ('_wandb', 'visualize', 'reconstruct_val0') {'panel_type': 'Vega2', 'panel_config': {'panelDefId': 'wandb/lineseries/v0', 'fieldSettings': {'step': 'step', 'lineKey': 'lineKey', 'lineVal': 'lineVal'}, 'stringSettings': {'title': 'Reconstruction (val)', 'xname': 'x'}, 'transform': {'name': 'tableWithLeafColNames'}, 'userQuery': {'queryFields': [{'name': 'runSets', 'args': [{'name': 'runSets', 'value': '${runSets}'}], 'fields': [{'name': 'id', 'fields': []}, {'name': 'name', 'fields': []}, {'name': '_defaultColorIndex', 'fields': []}, {'name': 'summaryTable', 'args': [{'name': 'tableKey', 'value': 'reconstruct_val0_table'}], 'fields': []}]}]}}} None
+2024-04-05 21:53:53,478 INFO    MainThread:52314 [wandb_run.py:_finish():1685] finishing run rptu_shekhar/st_feature_one_channel/xlot7cem
+2024-04-05 21:53:53,478 INFO    MainThread:52314 [wandb_run.py:_atexit_cleanup():1867] got exitcode: 0
+2024-04-05 21:53:53,482 INFO    MainThread:52314 [wandb_run.py:_restore():1839] restore
+2024-04-05 21:53:55,517 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7519335
+  total_bytes: 7519335
+}
+
+2024-04-05 21:53:56,123 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7519335
+  total_bytes: 7519335
+}
+
+2024-04-05 21:53:56,349 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 1
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7519335
+  total_bytes: 7519335
+}
+
+2024-04-05 21:53:57,125 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7519335
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:57,233 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7519335
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:57,334 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7519335
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:57,436 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7519335
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:57,538 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7532653
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:57,643 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7537712
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:57,749 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7537712
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:57,856 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7537712
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:57,963 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7537712
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:58,066 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7537712
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:58,254 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7537712
+  total_bytes: 7537712
+}
+
+2024-04-05 21:53:58,565 INFO    MainThread:52314 [wandb_run.py:_on_finish():1996] got exit ret: done: true
+exit_result {
+}
+file_counts {
+  wandb_count: 6
+  media_count: 2
+  artifact_count: 3
+}
+pusher_stats {
+  uploaded_bytes: 7537712
+  total_bytes: 7537712
+}
+local_info {
+}
+
+2024-04-05 21:53:59,687 INFO    MainThread:52314 [wandb_run.py:_footer_history_summary_info():3104] rendering history
+2024-04-05 21:53:59,688 INFO    MainThread:52314 [wandb_run.py:_footer_history_summary_info():3136] rendering summary
+2024-04-05 21:53:59,692 INFO    MainThread:52314 [wandb_run.py:_footer_sync_info():3060] logging synced files

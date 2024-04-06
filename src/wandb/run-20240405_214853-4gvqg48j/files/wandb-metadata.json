@@ -1,0 +1,22 @@
+{
+    "os": "macOS-14.4.1-arm64-arm-64bit",
+    "python": "3.9.18",
+    "heartbeatAt": "2024-04-05T19:48:54.593833",
+    "startedAt": "2024-04-05T19:48:53.898703",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py",
+    "codePath": "src/main.py",
+    "git": {
+        "remote": "git@github.com:justuswill/Master.git",
+        "commit": "86a23317fe70820ffcd2f5612d5daf4eb317953b"
+    },
+    "email": null,
+    "root": "/Users/ayushshekhar/Desktop/work/ml/Master",
+    "host": "Ayushs-MacBook-Pro.local",
+    "username": "ayushshekhar",
+    "executable": "/Users/ayushshekhar/anaconda3/envs/py3.9/bin/python"
+}

@@ -1,0 +1,98 @@
+wandb_version: 1
+
+batch_size:
+  value: 64
+content_hooks:
+  value:
+  - conv0.0
+dataset:
+  value: None
+feature_load_artifact:
+  value: bert-tiny-eecq0ads:latest
+feature_model:
+  value: true
+feature_model_params:
+  value:
+    batch_size: 64
+    cloze_len: 8
+    cloze_perc: 0.2
+    csv_weights:
+    - 1
+    - 1
+    dataset: CSVs
+    dropout: 0.2
+    embedding: none
+    file_names:
+    - gp_single.csv
+    - energy_norm_single.csv
+    last_nonempty: null
+    layers: 8
+    mask_rand_none_split:
+    - 0.8
+    - 0.1
+    - 0.1
+    masking: token-pre
+    model: CNN
+    out_conv_channels: 4096
+    relevant_cols:
+    - x_1
+    seq_len: 256
+    transform: masking
+lamb_content:
+  value: 1
+lamb_dis:
+  value: 0
+lamb_style:
+  value: 10
+last_hook:
+  value: conv1.0
+metrics:
+  value:
+  - stval_PR
+  - stval_fin
+  - stval_perceptual
+  - stval_MAE
+model:
+  value: Iter
+num_iters:
+  value: 5
+relevant_cols:
+  value:
+  - x_1
+seq_len:
+  value: 256
+skip_train:
+  value: true
+st_content_params:
+  value:
+    batch_size: 64
+    dataset: CSV
+    file_name: gp_single.csv
+    relevant_cols:
+    - x_1
+    seq_len: 256
+    transform: none
+st_dataset:
+  value: true
+st_loss:
+  value: perceptual
+st_lr:
+  value: 0.00041063184839766566
+st_lr_decay:
+  value: 0.7918457423948557
+st_lr_full:
+  value: 200
+st_style_params:
+  value:
+    batch_size: 64
+    dataset: CSV
+    file_name: energy_norm_single.csv
+    relevant_cols:
+    - x_1
+    seq_len: 256
+    transform: none
+style_hooks:
+  value:
+  - conv1.0
+transform:
+  value: none

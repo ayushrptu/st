@@ -1,0 +1,63 @@
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'skip_train' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'metrics' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'model' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_model' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_model_params' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'feature_load_artifact' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Config item 'dataset' was locked by 'sweep' (ignored update).
+[34m[1mwandb[39m[22m: [33mWARNING[39m Changes to your `wandb` environment variables will be ignored because your `wandb` session has already started. For more information on how to modify your settings with `wandb.init()` arguments, please refer to [34m[4mhttps://wandb.me/wandb-init[39m[24m.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg project when running a sweep.
+[34m[1mwandb[39m[22m: [33mWARNING[39m Ignored wandb.init() arg entity when running a sweep.
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 646, in <module>
+    online(**mat2)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 24, in online
+    train_model(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 425, in train_model
+    model, feature_model, train, val, test = load_net_and_data(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 404, in load_net_and_data
+    path = load_artifact(config["feature_load_artifact"]) if "feature_load_artifact" in config.keys() else config["feature_load_path"]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 346, in load_artifact
+    for f in os.listdir(dir):
+FileNotFoundError: [Errno 2] No such file or directory: '../nets/temp'
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 646, in <module>
+    online(**mat2)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 24, in online
+    train_model(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 425, in train_model
+    model, feature_model, train, val, test = load_net_and_data(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 404, in load_net_and_data
+    path = load_artifact(config["feature_load_artifact"]) if "feature_load_artifact" in config.keys() else config["feature_load_path"]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 346, in load_artifact
+    for f in os.listdir(dir):
+FileNotFoundError: [Errno 2] No such file or directory: '../nets/temp'
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 646, in <module>
+    online(**mat2)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 24, in online
+    train_model(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 425, in train_model
+    model, feature_model, train, val, test = load_net_and_data(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 404, in load_net_and_data
+    path = load_artifact(config["feature_load_artifact"]) if "feature_load_artifact" in config.keys() else config["feature_load_path"]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 346, in load_artifact
+    for f in os.listdir(dir):
+FileNotFoundError: [Errno 2] No such file or directory: '../nets/temp'
+Traceback (most recent call last):
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 646, in <module>
+    online(**mat2)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/main.py", line 24, in online
+    train_model(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 425, in train_model
+    model, feature_model, train, val, test = load_net_and_data(config)
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 404, in load_net_and_data
+    path = load_artifact(config["feature_load_artifact"]) if "feature_load_artifact" in config.keys() else config["feature_load_path"]
+  File "/Users/ayushshekhar/Desktop/work/ml/Master/src/train_eval.py", line 346, in load_artifact
+    for f in os.listdir(dir):
+FileNotFoundError: [Errno 2] No such file or directory: '../nets/temp'
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+--------------------Reading error -------------------
+1198505 trainable parameters
